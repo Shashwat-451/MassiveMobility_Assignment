@@ -31,15 +31,13 @@ function Home() {
                                 <div className='header-row-c1'>
                                     <IoIosSearch size={40} color='#9C9C9B'/>
                                     <input
-                                        width="191px"
                                         type="text"
                                         className="search-input"
                                         placeholder="Search by company name..."
                                     />
                                 </div>
-                                <div className='header-row-c2'>
-
-                                </div>
+                                
+                                
                                 <div className='right'>
                                     <Badge style={{borderRadius:"50%",backgroundColor:"#E8F0EB",padding:"10PX"}} badgeContent={4} color="success">
                                         <NotificationsIcon color="action" />
@@ -60,11 +58,11 @@ function Home() {
 
                         </div>
                         <h1 style={{ textAlign: "left", marginLeft: "32px" }}>My portfolio</h1>
-                        <div className='tags' style={{ display: "flex", marginLeft: "40px" }}>
+                        <div className='tags' style={{ display: "flex", marginLeft: "40px"}}>
                             <p>Dashboard</p>
                             <div style={{padding:'0px',margin:'0px'}}>
                             <p>MIS & Updates</p>
-                            <div style={{width:'121px',height:'2px',backgroundColor:'#186E47'}}></div>
+                            <div style={{width:'112px',height:'2px',backgroundColor:'#186E47',marginTop:"-8px"}}></div>
                             </div>
                             
                             <p>Insights</p>
@@ -77,7 +75,6 @@ function Home() {
                                 <div style={{ width: "40%" }} className='header-row-c1'>
                                 <IoIosSearch size={40} color='#9C9C9B' />
                                     <input
-                                        width="191px"
                                         type="text"
                                         className="search-input"
                                         placeholder="Search by company name..."
@@ -90,7 +87,7 @@ function Home() {
                                 </div>
                             </div>
 
-                            <h1 style={{ textAlign: "left", marginLeft: "32px" }}>Activity Feed</h1>
+                            <h2 style={{ textAlign: "left", marginLeft: "32px" }}>Activity feed</h2>
                             <div className='contentdiv'>
                                 <div className='upper'>
                                     <div style={{ display: "flex", justifyContent: "space-between" }}>
@@ -103,7 +100,7 @@ function Home() {
                                         <div className='logoimage'>
                                             <img src={paralogo} />
                                         </div>
-                                        <div style={{ marginTop: "-10px", display: "flex", flexDirection: "column", alignItems: "flex-start" }}>
+                                        <div style={{ marginTop: "-10px", display: "flex", flexDirection: "column", alignItems: "flex-start",gap:"6px" }}>
                                             <h3>Ace Green Recycling</h3>
                                             <p style={{ color: "#484644", fontFamily: "Montserrat" }}>Battery Recycling | Bengaluru</p>
                                         </div>
@@ -117,9 +114,11 @@ function Home() {
                                         Massa ut et sed mattis tristique.
                                         Pulvinar vehicula tellus ut egestas leo sed. Malesuada auctor vestibulum luctus maecenas maecenas aliquam tellus viverra.</p>
                                     <img src={image1} />
+                                   <p> Pulvinar vehicula tellus ut egestas leo sed. Malesuada auctor vestibulum luctus maecenas maecenas aliquam tellus viverra.</p>
+                                   <div className='readmore'><p>READ MORE</p></div>
                                 </div>
                                 <div className='date'>
-                                    <p>15-03-2024</p>
+                                    <p>4 days ago</p>
                                 </div>
                             </div>
 
@@ -135,7 +134,7 @@ function Home() {
                                         <div className='logoimage'>
                                             <img src={paralogo} />
                                         </div>
-                                        <div style={{ marginTop: "-10px", display: "flex", flexDirection: "column", alignItems: "flex-start" }}>
+                                        <div style={{ marginTop: "-10px", display: "flex", flexDirection: "column", alignItems: "flex-start" ,gap:"6px"}}>
                                             <h3>Ace Green Recycling</h3>
                                             <p style={{ color: "#484644", fontFamily: "Montserrat" }}>Battery Recycling | Bengaluru</p>
                                         </div>
@@ -172,7 +171,7 @@ function Home() {
 
                                         <img src={paralogo} />
 
-                                        <div style={{ marginTop: "-10px", display: "flex", flexDirection: "column", alignItems: "flex-start" }}>
+                                        <div style={{ marginTop: "-10px", display: "flex", flexDirection: "column", alignItems: "flex-start" ,gap:"6px"}}>
                                             <h3>Ace Green Recycling</h3>
                                             <p style={{ color: "#484644", fontFamily: "Montserrat" }}>Battery Recycling | Bengaluru</p>
                                         </div>
